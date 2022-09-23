@@ -2,6 +2,7 @@ import React from "react";
 
 import MenuItem from "../menu-item/menu-item.component";
 
+import "./directory.styles.scss";
 class Directory extends React.Component{
     constructor(){
         super();
@@ -34,7 +35,7 @@ class Directory extends React.Component{
                 },
                 {
                     title: 'mens',
-                    imageUrl: 'https://i.ibb.co/React/mens.png',
+                    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
                     size: 'large',
                     id: 5,
                     linkUrl: 'shop/mens'
